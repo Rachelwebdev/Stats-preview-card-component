@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Very-dark-blue: hsl(233, 47%, 7%);
+  --Dark-desaturated-blue: hsl(244, 38%, 16%);
+  --Soft-violet: hsl(277, 64%, 61%);
+  --White: hsl(0, 0%, 100%);
+  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+  background-color: var(--Very-dark-blue);
+  font-size: 15px;
+}
+
+
+img {
+  height: auto;
+  max-width: 350px;  
+}
+
+.container {
+    display: flex;
+    flex-shrink: 1;
+    border: 1px solid white;  
+    margin: 50vh;
+    border-radius: 10px 1px 1px 10px;
+  }
+
+
+
+.description {
+  background-color: var(--Dark-desaturated-blue);
+  padding: 30px; 
+    
+}
+
+h1{
+    color: var(--White);
+    font-family: Inter;
+
+}
+
+.insights{
+    color: var(--Soft-violet);
+}
+
+.summary{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+    padding: 15px; 
+    font-family: Lexend Deca;
+    font-size: 12px;
+}
+
+
+h4{
+    color: white;
+
+
+}
+
+.comp{
+
+}
+
+
+.temp{
+
+
+
+}
+
+.queries{
+
+
+}
+
+.template{
+color: whitesmoke;
+
+
+}
